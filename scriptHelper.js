@@ -3,7 +3,7 @@
 require('isomorphic-fetch');
 
 function addDestinationInfo(document, name, diameter, star, distance, moons, imageUrl) {
-   let missionTarget = document.getElementbyId("missionTarget");
+   let missionTarget = document.getElementById("missionTarget");
    missionTarget.innerHTML = 
                 `<h2>Mission Destination</h2>
                 <ol>
